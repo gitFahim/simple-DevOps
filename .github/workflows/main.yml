@@ -27,5 +27,5 @@ jobs:
         with:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
           heroku_app_name: "fahim-appcicd"
-          heroku_email: "fahim793477@gmail.com"
+          heroku_email: "bsse0932@iit.du.ac.bd"
           procfile: "web: gunicorn index:app"
