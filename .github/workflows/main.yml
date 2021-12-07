@@ -26,6 +26,6 @@ jobs:
       - uses: akhileshns/heroku-deploy@v3.8.9
         with:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
-          heroku_app_name: "fahim-appcicd"
-          heroku_email: "fahim793477@gmail.com"
+          heroku_app_name: "rafed-add"
+          heroku_email: "rafed123@gmail.com"
           procfile: "web: gunicorn index:app"
